@@ -1,0 +1,17 @@
+# NetBeans 
+
+build
+nbproject/private
+lib
+pom.xml.asc
+
+# JetBrains / Idea
+
+.gradle
+.idea/
+!.idea/icon*.png
+*.iml
+build/
+src/main/gen
+src/main/resources/templates.list
+src/main/resources/gitignore/*
