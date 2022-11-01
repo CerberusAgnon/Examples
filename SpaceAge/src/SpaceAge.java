@@ -9,8 +9,7 @@ class SpaceAge {
     /**
      * The method change the Earth days on seconds
      *
-     * @return double
-     * @since 15.10.22
+     * @return changed Earth days on seconds
      */
 
     double getSeconds() {
@@ -22,8 +21,7 @@ class SpaceAge {
      * For Earth: orbital period 1.0 Earth years, 365.25 Earth days,
      * or 31557600 seconds
      *
-     * @return double
-     * @since 15.10.22
+     * @return age in seconds for Earth
      */
     double onEarth() {
         double earthOrbitalPeriod = 1.0;
@@ -36,8 +34,7 @@ class SpaceAge {
      * Given an age in seconds and return age in Earth years.
      * For Mercury: orbital period 0.2408467 Earth years
      *
-     * @return double
-     * @since 15.10.22
+     * @return age is seconds for Mercury
      */
     double onMercury() {
         double mercuryOrbitalPeriod = 0.2408467;
@@ -49,8 +46,7 @@ class SpaceAge {
      * Given an age in seconds and return age in Earth years.
      * For Venus: orbital period 0.61519726 Earth years
      *
-     * @return double
-     * @since 16.10.22
+     * @return age in seconds for Venus
      */
     double onVenus() {
         double venusOrbitalPeriod = 0.61519726;
@@ -62,8 +58,7 @@ class SpaceAge {
      * Given an age in seconds and return age in Earth years.
      * For Mars: orbital period 1.8808158 Earth years
      *
-     * @return double
-     * @since 16.10.22
+     * @return age in seconds for Mars
      */
     double onMars() {
         double marsOrbitalPeriod = 1.8808158;
@@ -75,8 +70,7 @@ class SpaceAge {
      * Given an age in seconds and return age in Earth years.
      * For Jupiter: orbital period 11.862615 Earth years
      *
-     * @return double
-     * @since 16.10.22
+     * @return age in seconds for Jupiter
      */
     double onJupiter() {
         double jupiterOrbitalPeriod = 11.862615;
@@ -88,8 +82,7 @@ class SpaceAge {
      * Given an age in seconds and return age in Earth years.
      * For Saturn: orbital period 29.447498 Earth years
      *
-     * @return double
-     * @since 16.10.22
+     * @return age in seconds for Saturn
      */
     double onSaturn() {
         double saturnOrbitalPeriod = 29.447498;
@@ -101,8 +94,7 @@ class SpaceAge {
      * Given an age in seconds and return age in Earth years.
      * For Uranus: orbital period 84.016846 Earth years
      *
-     * @return double
-     * @since 16.10.22
+     * @return age in seconds for Uranus
      */
     double onUranus() {
         double uranusOrbitalPeriod = 84.016846;
@@ -114,8 +106,7 @@ class SpaceAge {
      * Given an age in seconds and return age in Earth years.
      * For Neptune: orbital period 164.79132 Earth years
      *
-     * @return double
-     * @since 16.10.22
+     * @return age in seconds for Neptune
      */
     double onNeptune() {
         double neptuneOrbitalPeriod = 164.79132;
